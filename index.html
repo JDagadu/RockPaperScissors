@@ -1,9 +1,114 @@
 <!DOCTYPE html>
-<head>
+<html>
+    <head>
+        <title>Rock-Paper-Scissors: The Game</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="https://img.icons8.com/color/96/000000/xbox--v1.png"/>
+        <div class="main-container">
+            <div class="container">
+                <div class="leftside">
+                    <img width="96"  class="lb" src="https://img.icons8.com/color/96/000000/xbox-lb.png"/>
+                    <div class="plus">
+                        <img src="https://img.icons8.com/color/144/000000/xbox-cross.png"/>
+                    </div>
+                    <div class="Leftstick">
+                        <img src="https://img.icons8.com/color/144/000000/xbox-l--v1.png"/>
+                    </div>
+                </div>
+               
+                
+        
+                </div>
+                
+                    <div class="cover">
+                        <section class="announce-winner">
+                         <img class="winner-profile" src="https://img.icons8.com/color/144/000000/iron-man.png" alt="winner-profile">
+                         <h3 id="winner-text">You Won</h3>
+                         <button>Reset</button>
+                     </section>
+                    </div>
+            
+                    <main>
+                       
+                      
+                        <section class="introduction">
+                            <h3>Do you think you have what it takes ? Come let's Rock-Paper-Scissors...</h3>
+                            <!-- <p>Showcase your mind reading ability...</p> -->
+                        </section>
+                        <section class="buttons-section">
+                            <img class="buttons" data-key="rock" id="rock-button" src="images/rock2.png" alt="rock">
+                            <img class="buttons" data-key="paper" id="paper-button" src= "images/paper.png" alt="paper">
+                            <img class="buttons" data-key="scissors" id="scissors-button" src="images/scissors2.png" alt="scissors">
+                        </section>
+                        
+            
+                        <section class="score-section">
+                            <div class="main-scoreboard">
+                                <div class="userprofile">
+                                    <figure>
+                                        <img src="https://img.icons8.com/color/96/000000/iron-man.png"/>
+                                        <figcaption id="user-score" class="score"><p>0</p><p>User</p></user></figcaption>
+                                    </figure>
+                                    
+                                    
+                                    
+            
+                                </div>
+                                <div class="versus"><h1>Vs</h1></div>
+                                <div class="robotprofile">
+                                    <figure>
+                                        <img src="https://img.icons8.com/color/96/000000/cyborg.png"/>
+                                        <figcaption id="robot-score" class="score"><p>0</p><p>computer</p></figcaption>
+                                    </figure>
+                                    
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                
+                    <div class="rightside">
+                        <img width="96" class="rb" src="https://img.icons8.com/color/96/000000/xbox-rb.png"/>
+                        <div class="plus">
+                            <div class="left">
+                                <img class = "b"src="https://img.icons8.com/color/48/000000/xbox-b.png"/>
+                                
+                                
+                            </div>
+                            <div class="right">
+                                <img class = "a"src="https://img.icons8.com/color/48/000000/xbox-a.png"/>
+                            </div>
+                            <!-- <div class="middle">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="48" height="48"
+    viewBox="0 0 172 172"
+    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M86,157.66667c-39.41667,0 -71.66667,-32.25 -71.66667,-71.66667c0,-39.41667 32.25,-71.66667 71.66667,-71.66667c39.41667,0 71.66667,32.25 71.66667,71.66667c0,39.41667 -32.25,71.66667 -71.66667,71.66667z"></path></g></g></svg>
+                            </div> -->
+                            <div class="up">
+                                <img class = "y"src="https://img.icons8.com/color/48/000000/xbox-y.png"/>
+                                
+                            </div>
+                            <div class="down">
+                                <img class = "x"src="https://img.icons8.com/color/48/000000/xbox-x.png"/>
+                            </div>
+                            
+                        </div>
+                        <div class="Leftstick">
+                            <img src="https://img.icons8.com/color/144/000000/xbox-r--v1.png"/>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        
 
-</head>
-<body>
+        <script src="script/main.js">
 
+        </script>
+    </body>
 
-    <script src="js/main.js"></script>
-</body>
+</html>
